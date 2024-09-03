@@ -1,0 +1,162 @@
+@font-face {
+    font-family: myFont;
+    src: url(pokemonfont.ttf);
+}
+
+h1{
+    font-family: myFont;
+
+}
+
+.titulop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.titulop img{
+    width: 1500px;
+}
+
+header img{
+    width: 150px;
+}
+
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #ffcb05;
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+header ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-family: myFont;
+        font-size: large;
+}
+header ul li{
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    background-color: white;
+}
+
+#history h1{
+    font-family: myFont;
+
+}
+
+#history p{
+    width: 90%;
+}
+
+#pokemons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 2%;
+}
+.tipos{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.tipos h2{
+    font-family: myFont;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color: #ffcb05;
+}
+
+
+a{
+    text-decoration: none ;
+    text-decoration-line: none;    
+}
+a link{
+    text-decoration: none;
+}
+a :visited{
+    text-decoration: none;
+}
+a :hover{
+     text-decoration: underline;
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.game h1{
+    font-family: myFont;
+    font-size: 36px;
+    
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.caja h2{
+    font-family: myFont;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.caja img{
+    width: 250px;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+footer{
+    padding-top: 1%;
+    font-style: italic;
+    font-family: myFont;
+    
+}
